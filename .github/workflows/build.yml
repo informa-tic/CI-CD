@@ -1,9 +1,10 @@
 name: Build
 on:
-  push:
-    branches:
-      - main
   pull_request:
+    branches:
+        - main
+        - develop
+        - feature/**
     types: [opened, synchronize, reopened]
 jobs:
   sonarcloud:

@@ -1,0 +1,28 @@
+{
+  "name": "ci-cd",
+  "version": "1.0.0",
+  "description": "Quicly CI/CD implementation using github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/informa-tic/CI-CD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/informa-tic/CI-CD/issues"
+  },
+  "homepage": "https://github.com/informa-tic/CI-CD#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0",
+    "sonar-scanner": "^3.1.0"
+  }
+}
