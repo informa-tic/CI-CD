@@ -1,5 +1,9 @@
 name: Build
 on:
+  branches:
+      - main
+      - develop
+      - feature/**
   pull_request:
     branches:
         - main
